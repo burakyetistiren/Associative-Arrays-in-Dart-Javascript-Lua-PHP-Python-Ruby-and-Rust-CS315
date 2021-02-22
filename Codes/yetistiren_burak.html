@@ -1,0 +1,35 @@
+<script>
+	var tolls = { "Ankara": "Free", "Kocaeli": 25, "Istanbul": 45, "Sakarya": 15}; //1
+
+	document.write(tolls['Ankara'] + '<br>'); //2
+	
+	tolls['Izmir'] = 65; //3
+		
+	delete tolls['Izmir']; //4
+	
+	tolls['Ankara'] = 10; //5
+	
+	document.write(tolls.hasOwnProperty('Kocaeli') + '<br>'); //6
+	
+	for(var i in tolls) //7
+	{
+		if( tolls[i] == 45)
+		{
+			exists = true;
+			break;
+		}
+		else
+			exists = false;
+	}
+	document.write(exists + '<br>');  
+	
+	function foo() //8
+	{
+		document.write(i + ": " + tolls[i] + '<br>');
+	}
+	
+	for(var i in tolls)
+	{
+		foo();
+	}
+</script>
