@@ -1,4 +1,4 @@
-# Associative Arrays in Dart Javascript Lua PHP Python Ruby and Rust CS315
+# Associative Arrays in Dart Javascript Lua PHP Python Ruby and Rust 
 Associative Arrays in Dart, Javascript, Lua, PHP, Python, Ruby, and Rust
 
 In this homework assignment, you the associative array data structures provided in seven
